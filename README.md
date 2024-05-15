@@ -2,7 +2,7 @@
 
 ## Description
 Welcome aboard everyone (interested in quantitative breast cancer epigenetics)! This is where you will find scripts you need to handle single cell confocal microscopy data, in order to extract topographic cell features. 
-The "FISH-QUANT pipeline" branch comprises 6 notebooks and is based on the FISH-QUANT v2 software. The "statistics" branch comprises 1 notebook dedicated in inferrential statistics. The original data is batches of 100 images treated under 8 different epigenetic modifiers- so 800 images in total. The pipeline aims to inform about the number of mRNA transcript aggregates (spots) and the number of transcription sites (aggregates in the cytoplasm) per image. This information is important to understand how transcription is regulated and how transcriptional bursting properties can be inferred. 
+The "FISH-QUANT pipeline" branch comprises 6 notebooks and is based on the FISH-QUANT v2 software. The "statistics" branch comprises 1 notebook dedicated in inferential statistics. The original data is batches of 100 images treated under 8 different epigenetic modifiers- so 800 images in total. The pipeline aims to inform about the number of mRNA transcript aggregates (spots) and the number of transcription sites (aggregates in the cytoplasm) per image. This information is important to understand how transcription is regulated and how transcriptional bursting properties can be inferred. 
 
 ## Instructions
 ### FISH-QUANT pipeline branch
@@ -14,7 +14,7 @@ The "FISH-QUANT pipeline" branch comprises 6 notebooks and is based on the FISH-
 6. Run the "coordinates analysis" script, which computes topographic features about each cell. <br />
 7. (Optionally) run the "synthetic data" script, which serves as benchmark for the pipeline. The user can determine the number of spots and clusters they want and check how the pipeline performs in identifying them.
 ### Statistics branch
-Run the script on jupyter notebook and explore inferrential statistics tests and visualisations. 
+Run the script on jupyter notebook and explore inferential statistics tests and visualisations. 
 
 ## Acknowledgements
 The pipeline uses packages from [GitHub Pages](https://github.com/fish-quant). 
