@@ -2,7 +2,7 @@
 
 ## Description
 Welcome aboard everyone (interested in quantitative breast cancer epigenetics)! This is where you will find scripts you need to handle single cell confocal microscopy data, in order to extract topographic cell features. 
-The "FISH-QUANT pipeline" branch comprises 6 notebooks and is based on the FISH-QUANT v2 software. The "statistics" branch comprises 1 notebook dedicated in inferential statistics. The original data is batches of 100 images treated under 8 different epigenetic modifiers- so 800 images in total. The pipeline aims to inform about the number of mRNA transcript aggregates (spots) and the number of transcription sites (aggregates in the cytoplasm) per image. This information is important to understand how transcription is regulated and how transcriptional bursting properties can be inferred. 
+The "FISH-QUANT pipeline" branch comprises 6 notebooks and is based on the FISH-QUANT v2 software. The "statistics" branch comprises 1 notebook dedicated to descriptive statistics. The original data is batches of 100 images treated under 8 different epigenetic modifiers- so 800 images in total. The pipeline aims to inform about the number of mRNA transcript aggregates (spots) and the number of transcription sites (aggregates in the cytoplasm) per image. This information is important to understand how transcription is regulated and how transcriptional bursting properties can be inferred. 
 
 ## Instructions
 ### FISH-QUANT pipeline branch
